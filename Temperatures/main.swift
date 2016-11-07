@@ -14,7 +14,7 @@ let n = Int(readLine()!)! // the number of temperatures to analyse
 let temps = readLine()! // the n temperatures expressed as integers ranging from -273 to 5526
 
 // --------------------------------------------------------- //
-// ------------------ MY SOLUTION STARTS HERE -------------- //-
+// ------------------ MY SOLUTION STARTS HERE -------------- //
 // --------------------------------------------------------- //
 
 let tempsList = temps.characters.split{$0 == " "}.map{Int(String($0)) ?? 0}
