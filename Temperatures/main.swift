@@ -26,7 +26,7 @@ if tempsList.count == 0 {
 
 var closestToZero = Int.max
 
-debugPrint("tempList = \(tempsList)", toStream: &errStream)
+debugPrint("tempList = \(tempsList)", to: &errStream)
 
 for temp in tempsList {
     if abs(temp - 0) < abs(closestToZero - 0) {
@@ -36,6 +36,6 @@ for temp in tempsList {
     }
 }
 
-debugPrint("closestToZero = \(closestToZero)", toStream: &errStream)
+debugPrint("closestToZero = \(closestToZero)", to: &errStream)
 
 print(closestToZero)
